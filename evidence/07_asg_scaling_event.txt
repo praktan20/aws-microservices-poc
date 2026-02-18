@@ -1,0 +1,11 @@
+$ aws autoscaling describe-scaling-activities --auto-scaling-group-name microservices-asg
+
+{
+  "Activities": [
+    {
+      "Description": "Launching a new EC2 instance: i-0ef9dcc1348678345",
+      "Cause": "At 2026-02-18T19:45:12Z a target tracking scaling policy increased the desired capacity from 2 to 3.",
+      "StatusCode": "Successful"
+    }
+  ]
+}
