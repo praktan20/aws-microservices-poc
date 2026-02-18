@@ -1,0 +1,3 @@
+$ terraform destroy
+
+Destroy complete! Resources: 23 destroyed.
