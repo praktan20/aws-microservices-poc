@@ -1,0 +1,14 @@
+$ aws ecr describe-images --repository-name service1 --region us-east-1
+
+{
+  "imageDetails": [
+    {
+      "registryId": "688933601318",
+      "repositoryName": "service1",
+      "imageDigest": "sha256:6caf772f5178c851c3af9138578d587cad36361bdb27d235f5b55d35691c2777",
+      "imageTags": ["latest"],
+      "imageSizeInBytes": 82453214,
+      "imagePushedAt": "2026-02-18T19:05:47"
+    }
+  ]
+}
