@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  service1:
+    image: ${ECR_URI}/service1:latest
+    container_name: service1
+    restart: always
+    ports:
+      - "8080:8080"
+
+  service2:
+    image: ${ECR_URI}/service2:latest
+    container_name: service2
+    restart: always
+    ports:
+      - "8081:8081"
